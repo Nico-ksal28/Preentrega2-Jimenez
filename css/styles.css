@@ -1,232 +1,155 @@
-
-/*ESTILOS DEL DESKTOP VIEW*/
-header .logo-1{
-    max-width:100%;
-    margin: 0;
-    padding: 0;
+/* ESTILOS GENERALES*/
+body {
+    background-image: url(/images/72849-abogados.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*ESTILOS DEL DESKTOP VIEW*/
 
 @media only screen and (min-width: 1025px){
-    
-    body {
-        background-color: #47453d;
-        margin: 0px;
-    }
-
     /*-----------------------------------------------------------------------------------------------------------------------*/
+
     /*ESTILOS DEL NAVBAR*/
     /*NAVBAR GENERAL*/
-    header{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        position: sticky;
-        top: 5px;
-        background-color: rgba(216, 15, 15, 0.404);
-    }
+   .nav-list{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 0px;
+    border: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+   }
 
-    header ul{
-        list-style: none;
-        display: flex;
-        position: relative;
-        left: 110px;
-        top: 7px;
-    }
-    /*LOGO DE LA FIRMA EN EL NAVBAR*/
-    header .logo{
-        background-color: blueviolet;
-        position: relative;
-        right: 116px;
-    }
-
-    /*NAV DE LA PESTAÑA FIRMA */
-    header .nav-lafirma{
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-    header .nav-lafirma:hover{
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-
-    /*NAV DE LA PESTAÑA EQUIPO*/
-    header .nav-equipo{
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-    header .nav-equipo:hover{
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-
-    /*NAV DE LA PESTAÑA NOSOTROS*/
-    header .nav-nosotros{
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-    header .nav-nosotros:hover{
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-    /*NAV DE LA PESTAÑA SERVICIOS*/
-
-    header .nav-servicios{
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-    header .nav-servicios:hover{
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-
-    /*NAV DE LA PESTAÑA CONTACTO*/
-    header .nav-contacto{
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-decoration: none;
-    }
-    header .nav-contacto:hover{
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-
-    header .menu_hamburguesa{
-        display: flex;
-        padding: 25px;
-        background-color: red;
-        display: none;
-    }
-    /*-----------------------------------------------------------------------------------------------------------------------*/
-    /*BURBUJAS*/
-    .contenedor-bubbles{
-        /*background-color: red;*/
-        padding: 50px 0px 50px 0px ;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .bubble-la-firma {
-        border: 5px;
-        border-style: solid;
-        border-color: white;
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .nosotros {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .clientes {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    p {
-        display: flex;
-        justify-content: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin: 5%;
-    }
-
-    h4 {
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(99, 99, 99);
-        text-align: center;
-    }
-
-    /*-----------------------------------------------------------------------------------------------------------------------*/
-    /*FOOTER*/
-
-    footer{
-        background-color: antiquewhite;
-    }
-
-    #logo-footer{
-        float: left;
-    }
-
-    #copyright {
-        padding: 10px;
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-
-    .redes-sociales{
-        background-color: blue;
-        text-align: right;
-        padding-right: 40px;
-    }
-
-    .terminos{
-        background-color: aqua;
-        text-align: right;
-        padding: 20px;
-    }
+/*NAV DE LA PESTAÑA LA FIRMA*/
+   .nav-lafirma {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
 }
-/*-----------------------------------------------------------------------------------------------------------------------*/
-
-/*ESTILOS DEL DESKTOP VIEW*/
-
-/*ESTILOS DEL MOBILE VIEW*/
-
-@media only screen and (max-width: 426px) {
-    body {
-        background-color: rgba(32, 29, 29, 0.342);
-    }
-
-    header{
-        display: flex;
-        justify-content: space-around;
-        background-color: rgba(15, 45, 216, 0.404);
-    }
-
-    header ul{
-        display: none;
-        list-style: none;
-    }
-
-    header .menu_hamburguesa{
-        display: flex;
-        padding: 10px;
-    }
+.nav-lafirma:hover{
+    background-color: rgba(32, 29, 29, 0.342);
 }
-/*ESTILOS DEL MOBILE VIEW*/
 
-/*ESTILOS DEL TABLET VIEW*/
-@media only screen and (min-width: 427px) and (max-width: 1024px) {
-    body {
-        background-color: red;
-    }
+/*NAV DE LA PESTAÑA EQUIPO*/
+header .nav-equipo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+header .nav-equipo:hover{
+    background-color: rgba(32, 29, 29, 0.342);
+}
+
+/*NAV DE LA PESTAÑA NOSOTROS*/
+header .nav-nosotros{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+header .nav-nosotros:hover{
+    background-color: rgba(32, 29, 29, 0.342);
+}
+/*NAV DE LA PESTAÑA SERVICIOS*/
+
+header .nav-servicios{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+header .nav-servicios:hover{
+    background-color: rgba(32, 29, 29, 0.342);
+}
+
+/*NAV DE LA PESTAÑA CONTACTO*/
+header .nav-contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+header .nav-contacto:hover{
+    background-color: rgba(32, 29, 29, 0.342);
+}
+
+header .menu_hamburguesa{
+    display: flex;
+    padding: 25px;
+    background-color: red;
+    display: none;
+}
+
+/*HEADER FIN */
+
+/*LOGO A LA IZQUIERDA */
+.logo_index{
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    background-color: rgba(194, 191, 191, 0.692);
+}
+
+.logo-1{
+   position: absolute;
+   top: 40%;
+   left: 30%
+}
+/* TEXTO A LA DERECHA */
+.right-side{
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    background-color: rgba(102, 98, 98, 0.692);
+    display: flex;
+}
+
+.texto-presentacion{
+    position: absolute;
+    top: 20%;
+    text-align: left;
+    padding: 50px;
+}
+
+.texto-presentacion{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: antiquewhite;
+}
+
+/* REDES SOCIALES */
+
+.redes{
+    position: absolute;
+    bottom: 1%;
+    right: 1% 
+}
+
+.bi{
+    padding-right:20px ;
 }
