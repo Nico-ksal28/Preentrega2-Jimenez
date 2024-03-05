@@ -248,14 +248,14 @@ a:visited{
     }
 
     .redes-contacto{
-        position: absolute;
-        padding-bottom: 10px;
-        bottom: 25%;
-        right: 37% 
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
     }
 
     .bi{
-        padding-right:20px ;
+        padding:20px ;
     }
 
 
@@ -435,5 +435,56 @@ a:visited{
             padding-left: 20px;
             padding-right: 20px;
             color: antiquewhite;
+        }
+
+
+    /* CONTACTO MOBILE */
+    /* INDEX */
+    /*LOGO ARRIBA */
+
+        .left-side-index{
+            width: 100%;
+            position: absolute;
+            height: auto;
+            background-color: rgba(194, 191, 191, 0.692);
+            }
+        .logo-1{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 100px;
+            padding: 50px;
+        }
+
+        /* TEXTO ABAJO */
+        .right-side-index{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top:25%;
+        background-color: rgba(102, 98, 98, 0.913);
+        }
+        
+        .head-contacto {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: antiquewhite;
+            padding-top: 10px;
+        }
+
+        .text-contacto{
+            color: antiquewhite;
+            text-align: center;
+            padding: 0 20px 0 20px;
+
+        }
+        .redes-contacto{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+        }
+    
+        .bi{
+            padding:20px ;
         }
     }
