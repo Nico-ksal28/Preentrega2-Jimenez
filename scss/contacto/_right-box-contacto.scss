@@ -1,0 +1,29 @@
+main{
+    .right-side-index{
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        background-color: rgba(102, 98, 98, 0.913);
+        display: flex;
+        .texto-contacto{
+            position: absolute;
+            top:30%;
+            left:25%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: antiquewhite;
+
+            .head-contacto{
+                text-align: center;
+            }
+            .text-contacto{
+                text-align: center;
+            }
+        }
+        .redes-sociales-contacto{
+            position: absolute;
+            top:55%;
+            left:40%;
+        }
+    }
+
+}
