@@ -1,0 +1,490 @@
+/* ESTILOS GENERALES*/
+body {
+    background-image: url(/images/72849-abogados.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+/*ESTILOS DEL DESKTOP VIEW*/
+
+@media only screen and (min-width: 1025px){
+    /*-------------------------------------------------------------------------------------------------------*/
+    /*ESTILOS DEL NAVBAR*/
+    /*NAVBAR GENERAL*/
+    header{
+        position: sticky;
+        top: 0px;
+        flex-wrap: wrap;
+    }
+    .nav-list{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        padding: 15px;
+        margin: 0px;
+        border: 0px;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*NAV DE LA PESTAÑA LA FIRMA*/
+    .nav-lafirma {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-decoration: none;
+    }
+    .nav-lafirma:hover{
+            background-color: rgba(32, 29, 29, 0.342);
+        }
+
+    /*NAV DE LA PESTAÑA EQUIPO*/
+    header .nav-equipo{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+    }
+    header .nav-equipo:hover{
+            background-color: rgba(32, 29, 29, 0.342);
+    }
+
+    /*NAV DE LA PESTAÑA NOSOTROS*/
+    header .nav-nosotros{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+    }
+    header .nav-nosotros:hover{
+            background-color: rgba(32, 29, 29, 0.342);
+    }
+    /*NAV DE LA PESTAÑA SERVICIOS*/
+
+    header .nav-servicios{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+    }
+    header .nav-servicios:hover{
+            background-color: rgba(32, 29, 29, 0.342);
+    }
+
+    /*NAV DE LA PESTAÑA CONTACTO*/
+    header .nav-contacto{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+    }
+        
+    header .nav-contacto:hover{
+            background-color: rgba(32, 29, 29, 0.342);
+    }
+
+    /*HEADER FIN */
+
+    /* INDEX */
+    /*LOGO A LA IZQUIERDA */
+
+    .left-side-index{
+        width: 40%;
+        position: absolute;
+        left: 0%;
+        height: 92%;
+        background-color: rgba(194, 191, 191, 0.692);
+        }
+    .logo-1{
+    position: absolute;
+    top: 40%;
+    left: 30%
+    }
+
+    /* TEXTO A LA DERECHA */
+    .right-side-index{
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        height: 92%;
+        background-color: rgba(102, 98, 98, 0.692);
+    }
+
+    .texto-presentacion{
+        position: absolute;
+        top: 15%;
+        padding: 50px;
+    }
+
+    .texto-presentacion{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        color: antiquewhite;
+    }
+
+    .head-index{
+        text-align: center;
+    }
+
+    .text-index{
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* REDES SOCIALES */
+
+    .redes{
+        position: absolute;
+        padding-bottom: 10px;
+        bottom: 0%;
+        right: 1% 
+    }
+
+    .bi{
+        padding-right:20px ;
+    }
+
+    /* LA FIRMA STYLES */
+    /* LOGO A LA IZQUIERDA*/
+    .left-side-lafirma{
+        width: 40%;
+        position: fixed;
+        left: 0%;
+        height: 100%;
+        background-color: rgba(194, 191, 191, 0.692);
+    }
+    .logo-1{
+    position: absolute;
+    top: 40%;
+    left: 30%
+    }
+
+    /* TEXTO A LA DERECHA */
+    .right-side-lafirma{
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        background-color: rgba(102, 98, 98, 0.913);
+        display: flex;
+    }
+
+    .head-lafirma{
+        text-align: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head-lafirma{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        color: antiquewhite;
+    }
+
+    .la-firma-p{
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: antiquewhite;
+    }
+    
+    /* EQUIPO STYLES*/
+    .head-equipo{
+        text-align: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .head-equipo{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        color: antiquewhite;
+    }
+
+/*PESTAÑA CONTACTO*/
+
+    .texto-contacto{
+        position: relative;
+        top: 15%;
+        padding: 50px;
+    }
+
+    .texto-contacto{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        color: antiquewhite;
+    }
+
+    .head-contacto{
+        text-align: center;
+    }
+
+    .text-contacto{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .redes-contacto{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+
+    .bi{
+        padding:20px ;
+    }
+
+
+    }
+    /*ESTILOS DEL MOBILE VIEW*/
+    @media only screen and (max-width: 1024px) {
+
+
+        /*ESTILOS DEL NAVBAR*/
+        /*NAVBAR GENERAL*/
+        header{
+            position: sticky;
+            top: 0px;
+            flex-wrap: wrap;
+        }
+        .nav-list{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            padding: 15px;
+            margin: 0px;
+            border: 0px;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        /*NAV DE LA PESTAÑA LA FIRMA*/
+        .nav-lafirma {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+        }
+        .nav-lafirma:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+            }
+
+        /*NAV DE LA PESTAÑA EQUIPO*/
+        header .nav-equipo{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-decoration: none;
+        }
+        header .nav-equipo:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+        }
+
+        /*NAV DE LA PESTAÑA NOSOTROS*/
+        header .nav-nosotros{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-decoration: none;
+        }
+        header .nav-nosotros:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+        }
+        /*NAV DE LA PESTAÑA SERVICIOS*/
+
+        header .nav-servicios{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-decoration: none;
+        }
+        header .nav-servicios:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+        }
+
+        /*NAV DE LA PESTAÑA CONTACTO*/
+        header .nav-contacto{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-decoration: none;
+        }
+            
+        header .nav-contacto:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+        }
+
+        /*HEADER FIN */
+
+        /* INDEX */
+        /*LOGO ARRIBA */
+
+        .left-side-index{
+            width: 100%;
+            position: absolute;
+            height: auto;
+            background-color: rgba(194, 191, 191, 0.692);
+            }
+        .logo-1{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 100px;
+            padding: 50px;
+        }
+
+        /* TEXTO ABAJO */
+        .right-side-index{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top:25%;
+        background-color: rgba(102, 98, 98, 0.913);
+        }
+        
+        .head-index {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: antiquewhite;
+            padding-top: 10px;
+        }
+
+        .text-index{
+            color: antiquewhite;
+            text-align: justify;
+            padding: 0 20px 0 20px;
+
+        }
+        .redes{
+            position: absolute;
+            bottom: 0%;
+            right: 1% 
+        }
+    
+        .bi{
+            padding-right:20px ;
+        }
+        
+        /*LA FIRMA MOBILE*/
+
+        .left-side-lafirma{
+            width: 100%;
+            position: absolute;
+            height: auto;
+            background-color: rgba(194, 191, 191, 0.692);
+            }
+        
+        /* TEXTO ABAJO */
+        .right-side-lafirma{
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            top:25%;
+            background-color: rgba(102, 98, 98, 0.913);
+        }
+
+        .head-lafirma{
+            text-align: center;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .head-lafirma{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        color: antiquewhite;
+        }
+
+        .la-firma-p{
+            text-align: justify;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: antiquewhite;
+        }
+
+
+    /* CONTACTO MOBILE */
+    /* INDEX */
+    /*LOGO ARRIBA */
+
+        .left-side-index{
+            width: 100%;
+            position: absolute;
+            height: auto;
+            background-color: rgba(194, 191, 191, 0.692);
+            }
+        .logo-1{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 100px;
+            padding: 50px;
+        }
+
+        /* TEXTO ABAJO */
+        .right-side-index{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top:25%;
+        background-color: rgba(102, 98, 98, 0.913);
+        }
+        
+        .head-contacto {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: antiquewhite;
+            padding-top: 10px;
+        }
+
+        .text-contacto{
+            color: antiquewhite;
+            text-align: center;
+            padding: 0 20px 0 20px;
+
+        }
+        .redes-contacto{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+        }
+    
+        .bi{
+            padding:20px ;
+        }
+    }
