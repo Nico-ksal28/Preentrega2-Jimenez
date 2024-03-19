@@ -1,0 +1,36 @@
+main{
+    .right-side-index{
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        height: 92%;
+        background-color: rgba(102, 98, 98, 0.692);
+        .texto-presentacion{
+            position: absolute;
+            top: 15%;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            color: antiquewhite;
+        }
+    
+        .head-index{
+            text-align: center;
+        }
+    
+        .text-index{
+            text-align: center;
+            padding: 20px;
+        }
+        .redes{
+            position: absolute;
+            padding-bottom: 10px;
+            bottom: 0%;
+            right: 1% 
+        }
+    
+        .bi{
+            padding-right:20px ;
+        }
+    }
+}

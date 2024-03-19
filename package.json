@@ -7,8 +7,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "sass": "^1.72.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(/images/72849-abogados.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+header nav {
+  background-color: antiquewhite;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul .item {
+  padding: 20px;
+}
+
+main .left-side-index {
+  margin: 0;
+  width: 40%;
+  position: absolute;
+  left: 0%;
+  height: 92%;
+  background-color: rgba(194, 191, 191, 0.692);
+}
+main .left-side-index .logo-1 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+main .right-side-index {
+  width: 60%;
+  position: absolute;
+  left: 40%;
+  height: 92%;
+  background-color: rgba(102, 98, 98, 0.692);
+}
+main .right-side-index .texto-presentacion {
+  position: absolute;
+  top: 15%;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: antiquewhite;
+}
+main .right-side-index .head-index {
+  text-align: center;
+}
+main .right-side-index .text-index {
+  text-align: center;
+  padding: 20px;
+}
+main .right-side-index .redes {
+  position: absolute;
+  padding-bottom: 10px;
+  bottom: 0%;
+  right: 1%;
+}
+main .right-side-index .bi {
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
