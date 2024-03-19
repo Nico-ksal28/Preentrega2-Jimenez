@@ -23,7 +23,7 @@ header nav ul li a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-header nav ul .item {
+header nav ul .item, header nav ul li {
   padding: 20px;
 }
 
@@ -71,6 +71,10 @@ main .right-side-index .redes {
 }
 main .right-side-index .bi {
   padding-right: 20px;
+}
+
+header nav ul .item:hover, header nav ul li:hover {
+  background-color: rgba(32, 29, 29, 0.342);
 }
 
 /*# sourceMappingURL=style.css.map */

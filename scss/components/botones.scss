@@ -1,0 +1,14 @@
+header{
+    nav{
+        ul{
+            .item{
+            }
+            .item:hover{
+                background-color: rgba(32, 29, 29, 0.342);
+            }
+            li{
+                @extend .item;
+            }
+        }
+    }
+}

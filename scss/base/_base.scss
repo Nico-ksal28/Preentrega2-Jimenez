@@ -1,10 +1,11 @@
+$imagen-fondo: url(/images/72849-abogados.jpg);
 *{
     margin: 0%;
     padding: 0%;
 }
 
 body{
-    background-image: url(/images/72849-abogados.jpg);
+    background-image: $imagen-fondo;
     background-size: cover;
     margin:0;
 }
