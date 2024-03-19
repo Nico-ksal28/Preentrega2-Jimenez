@@ -5,6 +5,9 @@
 
 body {
   background-image: url(/images/72849-abogados.jpg);
+  background-position: center center;
+  background-size: auto;
+  background-attachment: fixed;
   background-size: cover;
   margin: 0;
 }
@@ -20,10 +23,11 @@ header nav ul {
 }
 header nav ul li a {
   text-decoration: none;
-  color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
 }
-header nav ul .item, header nav ul li {
+header nav ul .item {
   padding: 20px;
 }
 
@@ -73,7 +77,7 @@ main .right-side-index .bi {
   padding-right: 20px;
 }
 
-header nav ul .item:hover, header nav ul li:hover {
+header nav ul .item:hover {
   background-color: rgba(32, 29, 29, 0.342);
 }
 

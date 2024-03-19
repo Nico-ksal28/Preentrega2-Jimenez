@@ -6,9 +6,6 @@ header{
             .item:hover{
                 background-color: rgba(32, 29, 29, 0.342);
             }
-            li{
-                @extend .item;
-            }
         }
     }
 }
