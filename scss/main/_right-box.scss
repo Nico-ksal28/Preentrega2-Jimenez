@@ -1,36 +1,77 @@
-main{
-    .right-side-index{
-        width: 60%;
-        position: absolute;
-        left: 40%;
-        height: 92%;
-        background-color: rgba(102, 98, 98, 0.692);
-        .texto-presentacion{
+@media only screen and (min-width: 1025px){    
+    main{
+        .rsi{
+            width: 60%;
             position: absolute;
-            top: 15%;
-            padding: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.5;
-            color: antiquewhite;
+            left: 40%;
+            height: 100%;
+            background-color: rgba(100, 98, 98, 0.692);
+            .texto-presentacion{
+                position: absolute;
+                top: 15%;
+                padding: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.5;
+                color: antiquewhite;
+            }
+        
+            .head-index{
+                text-align: center;
+            }
+        
+            .text-index{
+                text-align: center;
+                padding: 20px;
+            }
+            .redes{
+                position: absolute;
+                padding-bottom: 10px;
+                bottom: 5%;
+                right: 1% 
+            }
+        
+            .bi{
+                padding-right:20px ;
+            }
         }
-    
-        .head-index{
-            text-align: center;
-        }
-    
-        .text-index{
-            text-align: center;
-            padding: 20px;
-        }
-        .redes{
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    main{
+        .rsi{
+            width: 100%;
+            height: 80%;
             position: absolute;
-            padding-bottom: 10px;
-            bottom: 0%;
-            right: 1% 
-        }
-    
-        .bi{
-            padding-right:20px ;
+            background-color: rgba(194, 191, 191, 0.692);
+            .texto-presentacion{
+                position: absolute;
+                padding: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.5;
+                color: black;
+            }
+        
+            .head-index{
+                text-align: center;
+            }
+        
+            .text-index{
+                text-align: justify;
+                padding: 20px;
+            }
+            .redes{
+                position: absolute;
+                left: 50%;
+                bottom: 1%;
+                transform: translate(-50%, -50%);
+                margin: 0 auto;
+            }
+        
+            .bi{
+                fill: black;
+                padding-right:20px ;
+            }
         }
     }
 }

@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1025px){
+    main{
+        .rsi {
+            .head-lafirma{
+                h1{
+                    margin-top: 15px;
+                }
+                ul{
+                    font-family: Arial, Helvetica, sans-serif;
+                    list-style-type: none;
+                    text-align: justify;
+                    padding: 0 50px 0 50px;
+                    }
+                    li{
+                        margin-bottom: 50px;
+                    }
+            } 
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    main{
+        .rsi {
+            .head-lafirma{
+                h1{
+                    margin-top: 15px;
+                    text-align: center;
+                }
+                h5{
+                    text-align: center;
+                    padding-top: 15px;
+                }
+                ul{
+                    font-family: Arial, Helvetica, sans-serif;
+                    list-style-type: none;
+                    text-align: justify;
+                    padding: 0 50px 0 50px;
+                    }
+                    li{
+                        margin-bottom: 30px;
+                        border-bottom: solid 1px black;
+                    }
+            } 
+        }
+    }
+}

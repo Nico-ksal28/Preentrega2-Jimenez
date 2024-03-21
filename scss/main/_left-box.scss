@@ -1,10 +1,11 @@
-main {
+@media only screen and (min-width: 1025px){
+    main {
         .left-side-index{
             margin: 0;
             width: 40%;
             position: absolute;
             left: 0%;
-            height: 92%;
+            height: 100%;
             background-color: rgba(194, 191, 191, 0.692);
             .logo-1{
                 position: absolute;
@@ -13,3 +14,18 @@ main {
             } 
         }
     }
+}    
+
+@media only screen and (max-width: 1024px){
+    main {
+        .left-side-index{
+            background-color: rgba(134, 128, 128, 0.705);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            .logo-1{
+                width: 150px;
+            } 
+        }
+    }
+}    
