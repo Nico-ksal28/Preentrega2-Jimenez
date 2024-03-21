@@ -169,7 +169,14 @@ header nav ul .item:hover {
 }
 
 @media only screen and (min-width: 1025px) {
-  main .head-lafirma {
+  main .rsi-lafirma {
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    height: 100%;
+    background-color: rgba(100, 98, 98, 0.692);
+  }
+  main .rsi-lafirma .head-lafirma {
     text-align: center;
     margin-top: 5px;
     margin-left: auto;
@@ -178,7 +185,7 @@ header nav ul .item:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: antiquewhite;
   }
-  main .la-firma-p {
+  main .rsi-lafirma .la-firma-p {
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
@@ -209,95 +216,185 @@ header nav ul .item:hover {
     color: black;
   }
 }
-main .right-side-index {
-  width: 60%;
-  position: absolute;
-  left: 40%;
-  background-color: rgba(102, 98, 98, 0.913);
-  display: flex;
+@media only screen and (min-width: 1025px) {
+  main .rsi .texto-contacto {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+  }
+  main .rsi .texto-contacto .head-contacto {
+    text-align: center;
+  }
+  main .rsi .texto-contacto .text-contacto {
+    text-align: center;
+  }
+  main .rsi .redes-sociales-contacto {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+  }
 }
-main .right-side-index .texto-contacto {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: antiquewhite;
+@media only screen and (max-width: 1024px) {
+  main .rsi .texto-contacto {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  main .rsi .texto-contacto .head-contacto {
+    text-align: center;
+  }
+  main .rsi .texto-contacto .text-contacto {
+    text-align: center;
+  }
+  main .rsi .redes-sociales-contacto {
+    padding-top: 20px;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+  }
 }
-main .right-side-index .texto-contacto .head-contacto {
-  text-align: center;
+@media only screen and (min-width: 1025px) {
+  main .head_equipo {
+    background-color: rgb(102, 98, 98);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main .head_equipo a {
+    padding-left: 150px;
+    padding-right: 100px;
+  }
+  main .head_equipo a .logo-1 {
+    width: 150px;
+  }
+  main .head_equipo h1 {
+    color: #faebd7;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+  }
+  main .container-info {
+    background-color: rgba(182, 182, 182, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  main .container-info .member {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+    padding-right: 100px;
+    padding-left: 150px;
+    text-align: justify;
+  }
+  main .container-info .member-pic {
+    padding-right: 150px;
+    padding-left: 50px;
+    width: 400px;
+  }
+  main .container-info-1 {
+    background-color: rgba(102, 98, 98, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  main .container-info-1 .member-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: justify;
+  }
+  main .container-info-1 .member-pic-1 {
+    padding-right: 50px;
+    padding-left: 150px;
+    width: 400px;
+  }
 }
-main .right-side-index .texto-contacto .text-contacto {
-  text-align: center;
+@media only screen and (max-width: 1024px) {
+  main .head_equipo {
+    background-color: rgb(102, 98, 98);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main .head_equipo a {
+    padding-left: 150px;
+    padding-right: 100px;
+  }
+  main .head_equipo a .logo-1 {
+    width: 150px;
+  }
+  main .head_equipo h1 {
+    color: #faebd7;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+  }
+  main .container-info {
+    background-color: rgba(182, 182, 182, 0.692);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  main .container-info .member {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: center;
+  }
+  main .container-info .member-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 25px;
+    width: 400px;
+    width: 50%;
+  }
+  main .container-info-1 {
+    background-color: rgba(102, 98, 98, 0.692);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  main .container-info-1 .member-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  main .container-info-1 .member-pic-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 25px;
+    width: 400px;
+    width: 50%;
+  }
 }
-main .right-side-index .redes-sociales-contacto {
-  position: absolute;
-  top: 55%;
-  left: 40%;
-}
-
-main .head_equipo {
-  background-color: rgb(102, 98, 98);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-main .head_equipo a {
-  padding-left: 150px;
-  padding-right: 100px;
-}
-main .head_equipo a .logo-1 {
-  width: 150px;
-}
-main .head_equipo h1 {
-  color: #faebd7;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  left: 50%;
-}
-main .container-info {
-  background-color: rgba(182, 182, 182, 0.692);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-main .container-info .member {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(44, 44, 44);
-  padding-right: 100px;
-  padding-left: 150px;
-  text-align: justify;
-}
-main .container-info .member-pic {
-  padding-right: 150px;
-  padding-left: 50px;
-  width: 400px;
-}
-main .container-info-1 {
-  background-color: rgba(102, 98, 98, 0.692);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-main .container-info-1 .member-1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: antiquewhite;
-  padding-right: 150px;
-  padding-left: 150px;
-  text-align: justify;
-}
-main .container-info-1 .member-pic-1 {
-  padding-right: 50px;
-  padding-left: 150px;
-  width: 400px;
-}
-
 @media only screen and (min-width: 1025px) {
   main .rsi .head-lafirma h1 {
     margin-top: 15px;
+    text-align: center;
+    color: antiquewhite;
+  }
+  main .rsi .head-lafirma h5 {
+    text-align: center;
+    color: antiquewhite;
   }
   main .rsi .head-lafirma ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -307,6 +404,7 @@ main .container-info-1 .member-pic-1 {
   }
   main .rsi .head-lafirma li {
     margin-bottom: 50px;
+    color: antiquewhite;
   }
 }
 @media only screen and (max-width: 1024px) {
